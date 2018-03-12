@@ -1,0 +1,13 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">OnTheMove</string>
+    <string name="title_activity_dasboard">Dasboard</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="todo" tools:ignore="DuplicateDefinition">TODO</string>
+    <string name="onthemove_helps_you_to_find_the_best_routes_to_motto_using_public_transport">OnTheMove helps you to find the best routes to Motto using public transport</string>
+    <string name="and_gives_you_step_by_step_journey_directions_with_updated_timetables_for_taxis_in_gauteng">And gives you step by step journey directions with updated timetables for Taxis in Gauteng.</string>
+    <string name="title_activity_profile">Profile</string>
+</resources>
