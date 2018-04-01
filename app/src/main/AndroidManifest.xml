@@ -33,15 +33,12 @@
             </intent-filter>
         </activity>
         <activity android:name=".SignIn" />
-        <activity
-            android:name=".Dasboard"
-            android:label="@string/title_activity_dasboard"
-            android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".GoogleMaps" />
         <activity
-            android:name=".Profile"
-            android:label="@string/title_activity_profile"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:name=".Navigation"
+            android:label="@string/title_activity_navigation"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".WhereIsMyTransport"></activity>
     </application>
 
 </manifest>

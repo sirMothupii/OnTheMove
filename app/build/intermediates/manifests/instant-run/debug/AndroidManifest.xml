@@ -50,15 +50,12 @@
             </intent-filter>
         </activity>
         <activity android:name="com.example.sirmothupii.onthemove.SignIn" />
-        <activity
-            android:name="com.example.sirmothupii.onthemove.Dasboard"
-            android:label="@string/title_activity_dasboard"
-            android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name="com.example.sirmothupii.onthemove.GoogleMaps" />
         <activity
-            android:name="com.example.sirmothupii.onthemove.Profile"
-            android:label="@string/title_activity_profile"
+            android:name="com.example.sirmothupii.onthemove.Navigation"
+            android:label="@string/title_activity_navigation"
             android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name="com.example.sirmothupii.onthemove.WhereIsMyTransport" />
 
         <meta-data
             android:name="android.support.VERSION"

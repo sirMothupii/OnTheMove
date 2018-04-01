@@ -18,7 +18,7 @@ public class SignIn extends AppCompatActivity
     //Link to take user to dashboard screen
     public void onClickSignIn(View view)
     {
-        Intent intent1 = new Intent(this, Profile.class);
+        Intent intent1 = new Intent(this, Navigation.class);
         startActivity(intent1);
     }
 
