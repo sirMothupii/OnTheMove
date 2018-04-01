@@ -15,10 +15,12 @@ import android.view.Menu;
 import android.view.MenuItem;
 
 public class Navigation extends AppCompatActivity
-        implements NavigationView.OnNavigationItemSelectedListener {
+        implements NavigationView.OnNavigationItemSelectedListener
+{
 
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
+    protected void onCreate(Bundle savedInstanceState)
+    {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_navigation);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
@@ -89,7 +91,7 @@ public class Navigation extends AppCompatActivity
         }
         else if (id == R.id.nav_facebook)
         {
-
+            startActivity(new Intent(this, FacebookOnline.class));
         }
         else if (id == R.id.nav_scan)
         {

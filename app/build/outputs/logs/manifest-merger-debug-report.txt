@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\sirMothupii\StudioProjects\OnTheMove\app\src\main\AndroidManifest.xml:2:1-44:12
-INJECTED from C:\Users\sirMothupii\StudioProjects\OnTheMove\app\src\main\AndroidManifest.xml:2:1-44:12
-INJECTED from C:\Users\sirMothupii\StudioProjects\OnTheMove\app\src\main\AndroidManifest.xml:2:1-44:12
-INJECTED from C:\Users\sirMothupii\StudioProjects\OnTheMove\app\src\main\AndroidManifest.xml:2:1-44:12
+ADDED from C:\Users\sirMothupii\StudioProjects\OnTheMove\app\src\main\AndroidManifest.xml:2:1-45:12
+INJECTED from C:\Users\sirMothupii\StudioProjects\OnTheMove\app\src\main\AndroidManifest.xml:2:1-45:12
+INJECTED from C:\Users\sirMothupii\StudioProjects\OnTheMove\app\src\main\AndroidManifest.xml:2:1-45:12
+INJECTED from C:\Users\sirMothupii\StudioProjects\OnTheMove\app\src\main\AndroidManifest.xml:2:1-45:12
 MERGED from [com.google.firebase:firebase-core:11.0.4] C:\Users\sirMothupii\.gradle\caches\transforms-1\files-1.1\firebase-core-11.0.4.aar\cce3176357ed9fd03688089cfd79741a\AndroidManifest.xml:2:1-6:12
 MERGED from [com.android.support:design:26.1.0] C:\Users\sirMothupii\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\626574eee865e76d71a0d0fc86b5c08c\AndroidManifest.xml:17:1-31:12
 MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\sirMothupii\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\ab488df8ed9a8b3eb693a76ec479ef0e\AndroidManifest.xml:17:1-31:12
@@ -27,20 +27,20 @@ MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\sirMothup
 MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\sirMothupii\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\fd2211e2969d7a33c910471dd388a029\AndroidManifest.xml:17:1-31:12
 MERGED from [com.android.support:support-compat:26.1.0] C:\Users\sirMothupii\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\e0600b9a52d4c379cb4f495b6b98d73a\AndroidManifest.xml:17:1-31:12
 MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\sirMothupii\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\443ddafd17a9ee6ef6ff3480307dd82d\AndroidManifest.xml:17:1-30:12
-INJECTED from C:\Users\sirMothupii\StudioProjects\OnTheMove\app\src\main\AndroidManifest.xml:2:1-44:12
-INJECTED from C:\Users\sirMothupii\StudioProjects\OnTheMove\app\src\main\AndroidManifest.xml:2:1-44:12
-INJECTED from C:\Users\sirMothupii\StudioProjects\OnTheMove\app\src\main\AndroidManifest.xml:2:1-44:12
+INJECTED from C:\Users\sirMothupii\StudioProjects\OnTheMove\app\src\main\AndroidManifest.xml:2:1-45:12
+INJECTED from C:\Users\sirMothupii\StudioProjects\OnTheMove\app\src\main\AndroidManifest.xml:2:1-45:12
+INJECTED from C:\Users\sirMothupii\StudioProjects\OnTheMove\app\src\main\AndroidManifest.xml:2:1-45:12
 	package
 		ADDED from C:\Users\sirMothupii\StudioProjects\OnTheMove\app\src\main\AndroidManifest.xml:3:5-48
 		INJECTED from C:\Users\sirMothupii\StudioProjects\OnTheMove\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\sirMothupii\StudioProjects\OnTheMove\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\Users\sirMothupii\StudioProjects\OnTheMove\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\sirMothupii\StudioProjects\OnTheMove\app\src\main\AndroidManifest.xml:2:1-44:12
+		ADDED from C:\Users\sirMothupii\StudioProjects\OnTheMove\app\src\main\AndroidManifest.xml:2:1-45:12
 		INJECTED from C:\Users\sirMothupii\StudioProjects\OnTheMove\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from C:\Users\sirMothupii\StudioProjects\OnTheMove\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\sirMothupii\StudioProjects\OnTheMove\app\src\main\AndroidManifest.xml:2:1-44:12
+		ADDED from C:\Users\sirMothupii\StudioProjects\OnTheMove\app\src\main\AndroidManifest.xml:2:1-45:12
 		INJECTED from C:\Users\sirMothupii\StudioProjects\OnTheMove\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Users\sirMothupii\StudioProjects\OnTheMove\app\src\main\AndroidManifest.xml:2:11-69
@@ -93,7 +93,7 @@ ADDED from C:\Users\sirMothupii\StudioProjects\OnTheMove\app\src\main\AndroidMan
 	android:required
 		ADDED from C:\Users\sirMothupii\StudioProjects\OnTheMove\app\src\main\AndroidManifest.xml:19:9-32
 application
-ADDED from C:\Users\sirMothupii\StudioProjects\OnTheMove\app\src\main\AndroidManifest.xml:21:5-42:19
+ADDED from C:\Users\sirMothupii\StudioProjects\OnTheMove\app\src\main\AndroidManifest.xml:21:5-43:19
 MERGED from [com.google.firebase:firebase-core:11.0.4] C:\Users\sirMothupii\.gradle\caches\transforms-1\files-1.1\firebase-core-11.0.4.aar\cce3176357ed9fd03688089cfd79741a\AndroidManifest.xml:5:5-20
 MERGED from [com.google.firebase:firebase-core:11.0.4] C:\Users\sirMothupii\.gradle\caches\transforms-1\files-1.1\firebase-core-11.0.4.aar\cce3176357ed9fd03688089cfd79741a\AndroidManifest.xml:5:5-20
 MERGED from [com.android.support:design:26.1.0] C:\Users\sirMothupii\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\626574eee865e76d71a0d0fc86b5c08c\AndroidManifest.xml:25:5-29:19
@@ -179,9 +179,13 @@ ADDED from C:\Users\sirMothupii\StudioProjects\OnTheMove\app\src\main\AndroidMan
 	android:name
 		ADDED from C:\Users\sirMothupii\StudioProjects\OnTheMove\app\src\main\AndroidManifest.xml:38:13-39
 activity#com.example.sirmothupii.onthemove.WhereIsMyTransport
-ADDED from C:\Users\sirMothupii\StudioProjects\OnTheMove\app\src\main\AndroidManifest.xml:41:9-65
+ADDED from C:\Users\sirMothupii\StudioProjects\OnTheMove\app\src\main\AndroidManifest.xml:41:9-56
 	android:name
 		ADDED from C:\Users\sirMothupii\StudioProjects\OnTheMove\app\src\main\AndroidManifest.xml:41:19-53
+activity#com.example.sirmothupii.onthemove.FacebookOnline
+ADDED from C:\Users\sirMothupii\StudioProjects\OnTheMove\app\src\main\AndroidManifest.xml:42:9-61
+	android:name
+		ADDED from C:\Users\sirMothupii\StudioProjects\OnTheMove\app\src\main\AndroidManifest.xml:42:19-49
 uses-sdk
 INJECTED from C:\Users\sirMothupii\StudioProjects\OnTheMove\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\sirMothupii\StudioProjects\OnTheMove\app\src\main\AndroidManifest.xml

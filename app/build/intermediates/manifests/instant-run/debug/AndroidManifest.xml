@@ -56,6 +56,7 @@
             android:label="@string/title_activity_navigation"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name="com.example.sirmothupii.onthemove.WhereIsMyTransport" />
+        <activity android:name="com.example.sirmothupii.onthemove.FacebookOnline" />
 
         <meta-data
             android:name="android.support.VERSION"

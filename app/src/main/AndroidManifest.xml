@@ -38,7 +38,8 @@
             android:name=".Navigation"
             android:label="@string/title_activity_navigation"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".WhereIsMyTransport"></activity>
+        <activity android:name=".WhereIsMyTransport" />
+        <activity android:name=".FacebookOnline"></activity>
     </application>
 
 </manifest>

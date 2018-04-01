@@ -26,6 +26,12 @@ import transportapisdk.TransportApiClient;
 import transportapisdk.TransportApiClientSettings;
 import transportapisdk.TransportApiResult;
 import transportapisdk.models.Agency;
+import transportapisdk.models.Cost;
+import transportapisdk.models.FareProduct;
+import transportapisdk.models.Itinerary;
+import transportapisdk.models.MultiPoint;
+import transportapisdk.models.Omit;
+import transportapisdk.models.Only;
 
 public class
 WhereIsMyTransport extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener
@@ -159,152 +165,176 @@ WhereIsMyTransport extends AppCompatActivity implements NavigationView.OnNavigat
                 /**
                  * @param id The id
                  */
-                public void setId(String id) {
+                public void setId(String id)
+                {
                     this.id = id;
                 }
 
                 /**
                  * @return The href
                  */
-                public String getHref() {
+                public String getHref()
+                {
                     return href;
                 }
 
                 /**
                  * @param href The href
                  */
-                public void setHref(String href) {
+                public void setHref(String href)
+                {
                     this.href = href;
                 }
 
                 /**
                  * @return The time
                  */
-                public String getTime() {
+                public String getTime()
+                {
                     return time;
                 }
 
                 /**
                  * @param time The time
                  */
-                public void setTime(String time) {
+                public void setTime(String time)
+                {
                     this.time = time;
                 }
 
                 /**
                  * @return The timeType
                  */
-                public TimeZoneFormat.TimeType getTimeType() {
+                public TimeZoneFormat.TimeType getTimeType()
+                {
                     return timeType;
                 }
 
                 /**
                  * @param timeType The timeType
                  */
-                public void setTimeType(TimeZoneFormat.TimeType timeType) {
+                public void setTimeType(TimeZoneFormat.TimeType timeType)
+                {
                     this.timeType = timeType;
                 }
 
                 /**
                  * @return The profile
                  */
-                public ContactsContract.Profile getProfile() {
+                public ContactsContract.Profile getProfile()
+                {
                     return profile;
                 }
 
                 /**
                  * @param profile The profile
                  */
-                public void setProfile(ContactsContract.Profile profile) {
+                public void setProfile(ContactsContract.Profile profile)
+                {
                     this.profile = profile;
                 }
 
                 /**
                  * @return The geometry
                  */
-                public MultiPoint getGeometry() {
+                public MultiPoint getGeometry()
+                {
                     return geometry;
                 }
 
                 /**
                  * @param geometry The geometry
                  */
-                public void setGeometry(MultiPoint geometry) {
+                public void setGeometry(MultiPoint geometry)
+                {
                     this.geometry = geometry;
                 }
 
                 /**
                  * @return The maxItineraries
                  */
-                public int getMaxItineraries() {
+                public int getMaxItineraries()
+                {
                     return maxItineraries;
                 }
 
                 /**
                  * @param maxItineraries The maxItineraries
                  */
-                public void setMaxItineraries(int maxItineraries) {
+                public void setMaxItineraries(int maxItineraries)
+                {
                     this.maxItineraries = maxItineraries;
                 }
 
                 /**
                  * @return The fareProducts
                  */
-                public List<String> getFareProducts() {
+                public List<String> getFareProducts()
+                {
                     return fareProducts;
                 }
 
                 /**
                  * @param fareProducts The fareProducts
                  */
-                public void setFareProducts(List<String> fareProducts) {
+                public void setFareProducts(List<String> fareProducts)
+                {
                     this.fareProducts = fareProducts;
                 }
 
                 /**
                  * @return The itineraries
                  */
-                public List<Itinerary> getItineraries() {
+                public List<Itinerary> getItineraries()
+                {
                     return itineraries;
                 }
 
                 /**
                  * @param itineraries The itineraries
                  */
-                public void setItineraries(List<Itinerary> itineraries) {
+                public void setItineraries(List<Itinerary> itineraries)
+                {
                     this.itineraries = itineraries;
                 }
 
                 /**
                  * @return The only objects used in the call.
                  */
-                public Only getOnly() {
+                public Only getOnly()
+                {
                     return only;
                 }
 
                 /**
                  * @param only The only objects used in the call.
                  */
-                public void setOnly(Only only) {
+                public void setOnly(Only only)
+                {
                     this.only = only;
                 }
 
                 /**
                  * @return The objects omitted from the call.
                  */
-                public Omit getOmit() {
+                public Omit getOmit()
+                {
                     return omit;
                 }
 
                 /**
                  * @param omit The objects omitted from the call.
                  */
-                public void setOmit(Omit omit) {
+                public void setOmit(Omit omit)
+                {
                     this.omit = omit;
                 }
             }
-        } else if (id == R.id.nav_maps) {
-            class Location {
+        }
+        else if (id == R.id.nav_maps)
+        {
+            class Location
+            {
                 String address;
                 Point geometry;
             }
@@ -315,33 +345,39 @@ WhereIsMyTransport extends AppCompatActivity implements NavigationView.OnNavigat
     /**
      * @return The address
      */
-    public String getAddress() {
+    public String getAddress()
+    {
         return address;
     }
 
     /**
      * @param address The address
      */
-    public void setAddress(String address) {
+    public void setAddress(String address)
+    {
         this.address = address;
     }
 
     /**
      * @return The geometry
      */
-    public boolean getGeometry() {
+    public boolean getGeometry()
+    {
         return true;
     }
 
     /**
      * @param geometry The geometry
      */
-    public boolean setGeometry(Point geometry) {
+    public boolean setGeometry(Point geometry)
+    {
         this.geometry = geometry;
 
-        if (id == R.id.nav_scan) {
+        if (id == R.id.nav_scan)
+        {
 
-        } else if (id == R.id.nav_Fare) {
+        } else if (id == R.id.nav_Fare)
+        {
             class Fare {
                 private String description;
                 private FareProduct fareProduct;
@@ -351,62 +387,74 @@ WhereIsMyTransport extends AppCompatActivity implements NavigationView.OnNavigat
                 /**
                  * @return The description
                  */
-                public String getDescription() {
+                public String getDescription()
+                {
                     return description;
                 }
 
                 /**
                  * @param description The description
                  */
-                public void setDescription(String description) {
+                public void setDescription(String description)
+                {
                     this.description = description;
                 }
 
                 /**
                  * @return The fareProduct
                  */
-                public FareProduct getFareProduct() {
+                public FareProduct getFareProduct()
+                {
                     return fareProduct;
                 }
 
                 /**
                  * @param fareProduct The fareProduct
                  */
-                public void setFareProduct(FareProduct fareProduct) {
+                public void setFareProduct(FareProduct fareProduct)
+                {
                     this.fareProduct = fareProduct;
                 }
 
                 /**
                  * @return The cost
                  */
-                public Cost getCost() {
+                public Cost getCost()
+                {
                     return cost;
                 }
 
                 /**
                  * @param cost The cost
                  */
-                public void setCost(Cost cost) {
+                public void setCost(Cost cost)
+                {
                     this.cost = cost;
                 }
 
                 /**
                  * @return The messages
                  */
-                public List<String> getMessages() {
+                public List<String> getMessages()
+                {
                     return messages;
                 }
 
                 /**
                  * @param messages The messages
                  */
-                public void setMessages(List<String> messages) {
+                public void setMessages(List<String> messages)
+                {
                     this.messages = messages;
                 }
             }
-        } else if (id == R.id.nav_facebook) {
+        }
+        else if (id == R.id.nav_facebook)
+        {
 
-        } else if (id == R.id.nav_share) {
+        }
+        else if (id == R.id.nav_share)
+        {
 
         }
 
