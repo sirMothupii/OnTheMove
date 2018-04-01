@@ -143,7 +143,7 @@ MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\sirMothupii\.gradle\
 	android:roundIcon
 		ADDED from C:\Users\sirMothupii\StudioProjects\OnTheMove\app\src\main\AndroidManifest.xml:25:9-54
 	android:icon
-		ADDED from C:\Users\sirMothupii\StudioProjects\OnTheMove\app\src\main\AndroidManifest.xml:23:9-43
+		ADDED from C:\Users\sirMothupii\StudioProjects\OnTheMove\app\src\main\AndroidManifest.xml:23:9-45
 	android:allowBackup
 		ADDED from C:\Users\sirMothupii\StudioProjects\OnTheMove\app\src\main\AndroidManifest.xml:22:9-35
 	android:theme

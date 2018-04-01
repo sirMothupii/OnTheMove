@@ -27,7 +27,8 @@ import transportapisdk.TransportApiClientSettings;
 import transportapisdk.TransportApiResult;
 import transportapisdk.models.Agency;
 
-public class WhereIsMyTransport extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener
+public class
+WhereIsMyTransport extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener
 {
     private String address;
     private Point geometry;

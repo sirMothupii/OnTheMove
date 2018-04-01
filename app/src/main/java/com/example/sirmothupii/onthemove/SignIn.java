@@ -15,7 +15,7 @@ public class SignIn extends AppCompatActivity
         setContentView(R.layout.activity_sign_in);
     }
 
-    //Link to take user to dashboard screen
+    //Link to take user to the navigation screen
     public void onClickSignIn(View view)
     {
         Intent intent1 = new Intent(this, Navigation.class);
